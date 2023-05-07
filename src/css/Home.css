@@ -1,0 +1,87 @@
+.k-cotnainer{
+    display: flex;
+    flex-wrap:wrap ;
+    border: 1px solid #EEE;
+    padding: 30px 0;
+    border-radius: 7px;
+}
+
+.k-cotnainer .card{
+    width: 45%;
+    padding: 20px 20px;
+    border-radius:6px ;
+    margin: 30px 20px;
+    transition: .2s;
+}
+
+.k-cotnainer .card:hover{
+    background-color: #EEE;
+}
+
+.k-cotnainer .card button{
+    width: 120px;
+}
+
+
+/* Start Search Bar */
+
+.k-main{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.k-main .k-search-bar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.k-main .k-search-bar input{
+    display: block;
+    width: 85%;
+    border: none;
+    border: 1px solid #d1cfcf;
+    border-radius: 6px;
+    margin-right: 8px;
+    padding: 5px 10px;
+}
+
+.k-main .k-search-bar input:focus{
+    outline: none;
+}
+
+.k-main .k-search-bar button{
+    width: 200px;
+}
+
+.k-main .k-predicition{
+    width: 70%;
+    position: absolute;
+    left: 0;
+    top: 120%;
+    border-radius:6px ;
+    list-style: none;
+    z-index: 1000;
+    background-color: #EEE;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.k-main .k-predicition li{
+background-color: #EEE;
+padding: 10px  ;
+transition: .4s;
+width: 100%;
+border-bottom: 1px solid white;
+border-radius:6px ;
+cursor: pointer;
+
+}
+
+.k-main .k-predicition li:hover{
+    padding-left: 20px;
+
+}
+
+/* End Search Bar */
